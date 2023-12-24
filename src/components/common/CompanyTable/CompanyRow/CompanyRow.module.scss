@@ -1,0 +1,20 @@
+.firstCell {
+	width: 200px;
+	text-align: left;
+}
+.secondCell {
+	width: 150px;
+	text-align: center;
+	background: rgb(188, 245, 226);
+}
+.thirdCell {
+	width: 200px;
+	& span:nth-child(2) {
+		float: right;
+		color: red;
+	}
+}
+.fourthCell {
+	width: 150px;
+	text-align: right;
+}
